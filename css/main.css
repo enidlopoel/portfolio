@@ -1514,6 +1514,11 @@ input::-moz-focus-inner {
   color: #000000;
 }
 
+.item-subtitle {
+  color:grey;
+  margin-bottom: 0em;
+}
+
 .item-title2 {
   font-family: "Avenir Next", serif;
   font-size: 3.6rem;
@@ -2485,6 +2490,14 @@ input::-moz-focus-inner {
   margin-top: 0;
 }
 
+.prior-list {
+  margin-bottom: 0%;
+}
+
+h4.item-role {
+  margin-top: 0em;
+}
+
 /* ------------------------------------------------------------------- 
  * responsive:
  * about
@@ -3226,6 +3239,13 @@ input::-moz-focus-inner {
 }
 
 .item-folio {
+  text-align: center;
+  padding: 60px;
+  background-color: #EFEFEF;
+  transition: all 0.5s ease-in-out;
+}
+
+.home-folio {
   text-align: center;
   padding: 60px;
   background-color: #EFEFEF;
